@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1255CC1D118B7900D1CC12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1255CB1D118B7900D1CC12 /* main.m */; };
+		BA1255CF1D118B7900D1CC12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1255CE1D118B7900D1CC12 /* AppDelegate.m */; };
+		BA1255D21D118B7900D1CC12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1255D11D118B7900D1CC12 /* ViewController.m */; };
+		BA1255D51D118B7900D1CC12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1255D31D118B7900D1CC12 /* Main.storyboard */; };
+		BA1255D81D118B7900D1CC12 /* geofence01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA1255D61D118B7900D1CC12 /* geofence01.xcdatamodeld */; };
+		BA1255DA1D118B7900D1CC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1255D91D118B7900D1CC12 /* Assets.xcassets */; };
+		BA1255DD1D118B7900D1CC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1255DB1D118B7900D1CC12 /* LaunchScreen.storyboard */; };
+		BA1255E81D118B7900D1CC12 /* geofence01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1255E71D118B7900D1CC12 /* geofence01Tests.m */; };
+		BA1255F31D118B7900D1CC12 /* geofence01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1255F21D118B7900D1CC12 /* geofence01UITests.m */; };
+		BA1256011D118B8800D1CC12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1256001D118B8800D1CC12 /* MapKit.framework */; };
+		BADDDED61D9E8F340028F1A1 /* default1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BADDDED51D9E8F340028F1A1 /* default1.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1255E41D118B7900D1CC12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1255BF1D118B7900D1CC12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1255C61D118B7900D1CC12;
+			remoteInfo = geofence01;
+		};
+		BA1255EF1D118B7900D1CC12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1255BF1D118B7900D1CC12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1255C61D118B7900D1CC12;
+			remoteInfo = geofence01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA1255C71D118B7900D1CC12 /* geofence01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geofence01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1255CB1D118B7900D1CC12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA1255CD1D118B7900D1CC12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA1255CE1D118B7900D1CC12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA1255D01D118B7900D1CC12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA1255D11D118B7900D1CC12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA1255D41D118B7900D1CC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA1255D71D118B7900D1CC12 /* geofence01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = geofence01.xcdatamodel; sourceTree = "<group>"; };
+		BA1255D91D118B7900D1CC12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1255DC1D118B7900D1CC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA1255DE1D118B7900D1CC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1255E31D118B7900D1CC12 /* geofence01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geofence01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1255E71D118B7900D1CC12 /* geofence01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geofence01Tests.m; sourceTree = "<group>"; };
+		BA1255E91D118B7900D1CC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1255EE1D118B7900D1CC12 /* geofence01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geofence01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1255F21D118B7900D1CC12 /* geofence01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geofence01UITests.m; sourceTree = "<group>"; };
+		BA1255F41D118B7900D1CC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1256001D118B8800D1CC12 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BADDDED51D9E8F340028F1A1 /* default1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = default1.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1255C41D118B7900D1CC12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1256011D118B8800D1CC12 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1255E01D118B7900D1CC12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1255EB1D118B7900D1CC12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1255BE1D118B7900D1CC12 = {
+			isa = PBXGroup;
+			children = (
+				BADDDED51D9E8F340028F1A1 /* default1.gpx */,
+				BA1256001D118B8800D1CC12 /* MapKit.framework */,
+				BA1255C91D118B7900D1CC12 /* geofence01 */,
+				BA1255E61D118B7900D1CC12 /* geofence01Tests */,
+				BA1255F11D118B7900D1CC12 /* geofence01UITests */,
+				BA1255C81D118B7900D1CC12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1255C81D118B7900D1CC12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1255C71D118B7900D1CC12 /* geofence01.app */,
+				BA1255E31D118B7900D1CC12 /* geofence01Tests.xctest */,
+				BA1255EE1D118B7900D1CC12 /* geofence01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1255C91D118B7900D1CC12 /* geofence01 */ = {
+			isa = PBXGroup;
+			children = (
+				BA1255CD1D118B7900D1CC12 /* AppDelegate.h */,
+				BA1255CE1D118B7900D1CC12 /* AppDelegate.m */,
+				BA1255D01D118B7900D1CC12 /* ViewController.h */,
+				BA1255D11D118B7900D1CC12 /* ViewController.m */,
+				BA1255D31D118B7900D1CC12 /* Main.storyboard */,
+				BA1255D91D118B7900D1CC12 /* Assets.xcassets */,
+				BA1255DB1D118B7900D1CC12 /* LaunchScreen.storyboard */,
+				BA1255DE1D118B7900D1CC12 /* Info.plist */,
+				BA1255D61D118B7900D1CC12 /* geofence01.xcdatamodeld */,
+				BA1255CA1D118B7900D1CC12 /* Supporting Files */,
+			);
+			path = geofence01;
+			sourceTree = "<group>";
+		};
+		BA1255CA1D118B7900D1CC12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1255CB1D118B7900D1CC12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1255E61D118B7900D1CC12 /* geofence01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1255E71D118B7900D1CC12 /* geofence01Tests.m */,
+				BA1255E91D118B7900D1CC12 /* Info.plist */,
+			);
+			path = geofence01Tests;
+			sourceTree = "<group>";
+		};
+		BA1255F11D118B7900D1CC12 /* geofence01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1255F21D118B7900D1CC12 /* geofence01UITests.m */,
+				BA1255F41D118B7900D1CC12 /* Info.plist */,
+			);
+			path = geofence01UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1255C61D118B7900D1CC12 /* geofence01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1255F71D118B7900D1CC12 /* Build configuration list for PBXNativeTarget "geofence01" */;
+			buildPhases = (
+				BA1255C31D118B7900D1CC12 /* Sources */,
+				BA1255C41D118B7900D1CC12 /* Frameworks */,
+				BA1255C51D118B7900D1CC12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geofence01;
+			productName = geofence01;
+			productReference = BA1255C71D118B7900D1CC12 /* geofence01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1255E21D118B7900D1CC12 /* geofence01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1255FA1D118B7900D1CC12 /* Build configuration list for PBXNativeTarget "geofence01Tests" */;
+			buildPhases = (
+				BA1255DF1D118B7900D1CC12 /* Sources */,
+				BA1255E01D118B7900D1CC12 /* Frameworks */,
+				BA1255E11D118B7900D1CC12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1255E51D118B7900D1CC12 /* PBXTargetDependency */,
+			);
+			name = geofence01Tests;
+			productName = geofence01Tests;
+			productReference = BA1255E31D118B7900D1CC12 /* geofence01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA1255ED1D118B7900D1CC12 /* geofence01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1255FD1D118B7900D1CC12 /* Build configuration list for PBXNativeTarget "geofence01UITests" */;
+			buildPhases = (
+				BA1255EA1D118B7900D1CC12 /* Sources */,
+				BA1255EB1D118B7900D1CC12 /* Frameworks */,
+				BA1255EC1D118B7900D1CC12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1255F01D118B7900D1CC12 /* PBXTargetDependency */,
+			);
+			name = geofence01UITests;
+			productName = geofence01UITests;
+			productReference = BA1255EE1D118B7900D1CC12 /* geofence01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA1255BF1D118B7900D1CC12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sahil Dhawan";
+				TargetAttributes = {
+					BA1255C61D118B7900D1CC12 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BA1255E21D118B7900D1CC12 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BA1255C61D118B7900D1CC12;
+					};
+					BA1255ED1D118B7900D1CC12 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BA1255C61D118B7900D1CC12;
+					};
+				};
+			};
+			buildConfigurationList = BA1255C21D118B7900D1CC12 /* Build configuration list for PBXProject "geofence01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA1255BE1D118B7900D1CC12;
+			productRefGroup = BA1255C81D118B7900D1CC12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1255C61D118B7900D1CC12 /* geofence01 */,
+				BA1255E21D118B7900D1CC12 /* geofence01Tests */,
+				BA1255ED1D118B7900D1CC12 /* geofence01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1255C51D118B7900D1CC12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1255DD1D118B7900D1CC12 /* LaunchScreen.storyboard in Resources */,
+				BA1255DA1D118B7900D1CC12 /* Assets.xcassets in Resources */,
+				BA1255D51D118B7900D1CC12 /* Main.storyboard in Resources */,
+				BADDDED61D9E8F340028F1A1 /* default1.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1255E11D118B7900D1CC12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1255EC1D118B7900D1CC12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1255C31D118B7900D1CC12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1255D81D118B7900D1CC12 /* geofence01.xcdatamodeld in Sources */,
+				BA1255D21D118B7900D1CC12 /* ViewController.m in Sources */,
+				BA1255CF1D118B7900D1CC12 /* AppDelegate.m in Sources */,
+				BA1255CC1D118B7900D1CC12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1255DF1D118B7900D1CC12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1255E81D118B7900D1CC12 /* geofence01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1255EA1D118B7900D1CC12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1255F31D118B7900D1CC12 /* geofence01UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1255E51D118B7900D1CC12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1255C61D118B7900D1CC12 /* geofence01 */;
+			targetProxy = BA1255E41D118B7900D1CC12 /* PBXContainerItemProxy */;
+		};
+		BA1255F01D118B7900D1CC12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1255C61D118B7900D1CC12 /* geofence01 */;
+			targetProxy = BA1255EF1D118B7900D1CC12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA1255D31D118B7900D1CC12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1255D41D118B7900D1CC12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA1255DB1D118B7900D1CC12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1255DC1D118B7900D1CC12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1255F51D118B7900D1CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA1255F61D118B7900D1CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA1255F81D118B7900D1CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geofence01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.geofence01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA1255F91D118B7900D1CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geofence01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.geofence01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA1255FB1D118B7900D1CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = geofence01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.geofence01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geofence01.app/geofence01";
+			};
+			name = Debug;
+		};
+		BA1255FC1D118B7900D1CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = geofence01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.geofence01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geofence01.app/geofence01";
+			};
+			name = Release;
+		};
+		BA1255FE1D118B7900D1CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = geofence01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.geofence01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = geofence01;
+			};
+			name = Debug;
+		};
+		BA1255FF1D118B7900D1CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = geofence01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.geofence01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = geofence01;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1255C21D118B7900D1CC12 /* Build configuration list for PBXProject "geofence01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1255F51D118B7900D1CC12 /* Debug */,
+				BA1255F61D118B7900D1CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1255F71D118B7900D1CC12 /* Build configuration list for PBXNativeTarget "geofence01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1255F81D118B7900D1CC12 /* Debug */,
+				BA1255F91D118B7900D1CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1255FA1D118B7900D1CC12 /* Build configuration list for PBXNativeTarget "geofence01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1255FB1D118B7900D1CC12 /* Debug */,
+				BA1255FC1D118B7900D1CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1255FD1D118B7900D1CC12 /* Build configuration list for PBXNativeTarget "geofence01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1255FE1D118B7900D1CC12 /* Debug */,
+				BA1255FF1D118B7900D1CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA1255D61D118B7900D1CC12 /* geofence01.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA1255D71D118B7900D1CC12 /* geofence01.xcdatamodel */,
+			);
+			currentVersion = BA1255D71D118B7900D1CC12 /* geofence01.xcdatamodel */;
+			path = geofence01.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA1255BF1D118B7900D1CC12 /* Project object */;
+}
